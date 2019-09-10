@@ -1,13 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Peace, Love, and Happiness</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <section class="game">
+      <div class="score">
+        <div class="playerScore">
+          <h2>Player</h2>
+          <p>0</p>
+        </div>
+        <div class="computerScore">
+          <h2>Computer</h2>
+          <p>0</p>
+        </div>
+      </div>
+
+      <div class="intro">
+        <h1>Peace, Love, and Happiness</h1>
+        <button>Let's Play</button>
+      </div>
+
+      <div class="match">
+        <h2 class="winner">
+          Choose an option
+        </h2>
+        <div class="symbols">
+          <img
+            class="playerSymbol"
+            src="./assets/img/peace.png"
+            alt="peace"
+            width="100px"
+            height="100px"
+          />
+          <img
+            class="computerSymbol"
+            src="./assets/img/peace.png"
+            alt="peace"
+            width="100px"
+            height="100px"
+          />
+        </div>
+        <div class="options">
+          <button class="peace">peace</button>
+          <button class="love">love</button>
+          <button class="happiness">happiness</button>
+        </div>
+      </div>
+    </section>
+    <script src="./app.js"></script>
+  </body>
 </html>
